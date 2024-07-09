@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDDD.Churras.Api", "TemplateDDD.Churras.Api\TemplateDDD.Churras.Api.csproj", "{B3576A4A-C9C8-4595-B4FF-DC060E7D2A34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDDD.Churras.Domain", "TemplateDDD.Churras.Domain\TemplateDDD.Churras.Domain.csproj", "{B7F57631-CD72-46E2-B43A-D7F0EBD972B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDDD.Churras.Domain.Model", "TemplateDDD.Churras.Domain.Model\TemplateDDD.Churras.Domain.Model.csproj", "{00B0DCED-DA0A-47B6-96D8-A946C25FD102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDDD.Churras.Front", "TemplateDDD.Churras.Front\TemplateDDD.Churras.Front.csproj", "{24601805-5BD7-4F83-9EAB-3548D8B78C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDDD.Churras.Infra", "TemplateDDD.Churras.Infra\TemplateDDD.Churras.Infra.csproj", "{D60B2CD3-9354-41A8-9951-9980433F2450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDDD.Churras.Tests", "TemplateDDD.Churras.Tests\TemplateDDD.Churras.Tests.csproj", "{2015CEEC-D9D5-459F-94A3-EF736A649664}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3576A4A-C9C8-4595-B4FF-DC060E7D2A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3576A4A-C9C8-4595-B4FF-DC060E7D2A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3576A4A-C9C8-4595-B4FF-DC060E7D2A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3576A4A-C9C8-4595-B4FF-DC060E7D2A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F57631-CD72-46E2-B43A-D7F0EBD972B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F57631-CD72-46E2-B43A-D7F0EBD972B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F57631-CD72-46E2-B43A-D7F0EBD972B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F57631-CD72-46E2-B43A-D7F0EBD972B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B0DCED-DA0A-47B6-96D8-A946C25FD102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B0DCED-DA0A-47B6-96D8-A946C25FD102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B0DCED-DA0A-47B6-96D8-A946C25FD102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B0DCED-DA0A-47B6-96D8-A946C25FD102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24601805-5BD7-4F83-9EAB-3548D8B78C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24601805-5BD7-4F83-9EAB-3548D8B78C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24601805-5BD7-4F83-9EAB-3548D8B78C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24601805-5BD7-4F83-9EAB-3548D8B78C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60B2CD3-9354-41A8-9951-9980433F2450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60B2CD3-9354-41A8-9951-9980433F2450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60B2CD3-9354-41A8-9951-9980433F2450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60B2CD3-9354-41A8-9951-9980433F2450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2015CEEC-D9D5-459F-94A3-EF736A649664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2015CEEC-D9D5-459F-94A3-EF736A649664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2015CEEC-D9D5-459F-94A3-EF736A649664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2015CEEC-D9D5-459F-94A3-EF736A649664}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
